@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 180, 76);
+}
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 160px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(156, 155, 155);
+}
+
+.nav a {
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.hover-home:hover {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hover-Prod:hover {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hover-Cont:hover {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1px;
+}
+
+.grid-item {
+    margin: 20px;
+    border: 1px solid gray;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    padding: 20px;
+}
+
+.grid-item img {
+    width: 220px;
+    height: 160px;
+    box-shadow: 2px 5px 5px #222222
+}
+
+.btn-buy {
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    background-color: #278fe4;
+    color: white;
+}
+
+.btn-buy:hover {
+    background-color: blue;
+}
+
+.btn-details {
+    width: 80px;
+    height: 40px;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.btn-details:hover {
+    background-color: rgb(185, 184, 184);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
